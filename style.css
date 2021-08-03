@@ -1,15 +1,7 @@
-h1{ 
-    color: salmon;
-    text-transform: uppercase;
-    text-decoration: wavy;
-    text-align: center;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color :darkgray
 }
-
-p{
-   color: gray;
-   text-indent: 10px;
-   text-decoration: line-through;
-   text-transform: capitalize;
-   letter-spacing: 3px;
-   word-spacing: 3px;
+a{
+    color: inherit;
 }
