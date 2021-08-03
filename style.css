@@ -1,7 +1,15 @@
-h1{
-    font: 18px arial;
+h1{ 
+    color: salmon;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    text-align: center;
 }
 
 p{
-    font : normal small-caps 100 10px/2 arial;
+   color: gray;
+   text-indent: 10px;
+   text-decoration: line-through;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+   word-spacing: 3px;
 }
