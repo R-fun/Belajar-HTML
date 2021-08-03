@@ -1,67 +1,7 @@
-    *{
-      padding: 0;
-      margin: 0;  
-    }
-
-    body{
-        background-color: #eaeaea;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .container{
-       width: 800px;
-       margin: auto;
-       background-color: #ffffff;
-       padding: 10px 10px 0 10px;
-
-    }
-    
-    .header h1{
-        font-size: 40px;
-    }
-
-    .header ul {
-        margin-top: 5px;
-    }
-
-    .header ul li {
-        display: inline;
-        list-style: none;
-        margin-right: 8px;
-    }
-
-
-    .header a {
-        text-decoration: none;
-        color: salmon;
-        padding: 3px;
-        
-    }
-
-    .header a:hover {
-        color: white;
-        background-color: sandybrown;
-    }
-
-    .hero{
-        margin-top: 20px;
-        border-top: 5px solid salmon;
-        border-bottom: 5px solid salmon;
-        height: 500px;
-        background-image: url(image/komputer.jpg);
-        background-size: cover;
-    }
-
-    .content h1{
-        margin: 10px;
-    }
-
-    .content .penulis a{
-        text-decoration: none;
-        color: salmon;
-    }
-
 h1{
-    color: lightblue;
-    font-family: arial;
+    font: 18px arial;
+}
+
+p{
+    font : normal small-caps 100 10px/2 arial;
 }
