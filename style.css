@@ -1,38 +1,19 @@
 .shape{
-	width: 200px;
-	height: 200px;
-	border: 7px solid gray;
-	float: left;
-	margin-right: 30px;
-	color: gray;
-	text-align: center;
-	line-height: 200px;
-}
-.satu{
-	border-radius: 30px;
+	width: 100px;
+	height: 100px;
+	background-color: indianred;
+	opacity: 0.5;
+	margin: 10px;
 }
 .dua{
-	border-top-left-radius: 30px;
-	border-bottom-right-radius: 30px;
+	background-color: indigo;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	opacity: 0.3;	
 }
 .tiga{
-	border-radius: 50%;
-}
-.empat{
-	width: 200px;
-    height: 100px;
-    border-top-left-radius: 110px;  
-    border-top-right-radius: 110px; 
-    border: 10px solid gray;
-	line-height: 100px;
-}
-.lima{
-	height: 100px;
-	border-bottom-left-radius: 110px;
-	border-bottom-right-radius: 110px;
-	line-height: 100px;
-}
-.enam{
-	border-top-right-radius: 50%;
-	border-bottom-right-radius: 50%;
+	position: absolute;
+	top: 75px;
+	left: 75px;
 }
