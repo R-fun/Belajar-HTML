@@ -1,38 +1,25 @@
-.footer{
-	position: fixed;
-	height: 50px;
-	top: 0;
-	left: 0;
-	right: 0;
-	background-color: grey;
-	margin-bottom: 20px;
-}
-.container{
-	width: 300px;
-	height: 1000px;
-	border: 1px solid green;
-	margin: auto;
-	position: relative;
-}
-.satu,.dua,.tiga{
-	margin: auto;
-	width: 100px;
-	height: 100px;
+div{
+	width: 200px;
+	height: 200px;
 	text-align: center;
 	line-height: 100px;
 	color: white;
 	font-size: 20px;
-}
-.satu{
-	background-color: burlywood;
-
-}
-.dua{
-	background-color: cadetblue;
 	position: absolute;
-	top: 0;
-	left: 0;
 }
-.tiga{
-	background-color: coral;
+.kotak1{
+	background-color: tomato;
+	z-index: 3; 
+}
+.kotak2{
+	background-color: violet;
+	top: 100px;
+	left: 100px;
+	z-index: 2;
+}
+.kotak3{
+	background-color:bisque;
+	top: 200px;
+	left: 200px;
+	z-index: 2;
 }
