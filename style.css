@@ -1,86 +1,38 @@
-/* universal */
-*{
-	padding: 0;
-	margin: 0;
+.footer{
+	position: fixed;
+	height: 50px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: grey;
+	margin-bottom: 20px;
 }
-body{
-	background-color: rgba(0,0,0,0.4);	
-}
-
 .container{
-	font-family: Arial, Helvetica, sans-serif;
-	width: 800px;
+	width: 300px;
+	height: 1000px;
+	border: 1px solid green;
 	margin: auto;
-	background-color: rgba(255, 255, 255, 0.8);
+	position: relative;
 }
-
-.header,.navigasi,.main{
-	padding: 10px;
-}
-
-/* header */
-.header h1{
-	font-size: 40px;
-	color: rgba(0,0,0,0.7);
-}
-
-/* navigasi */
-.navigasi{
-	margin-top: -10px;
-}
-.navigasi ul li {
-	display: inline-block;
-	margin: 0 10px 10px 0;
-}
-.navigasi ul li a {
-	text-decoration: none;
-	color: salmon;
-}
-
-/* content */
-.content{
-	width: 97%;
-	height: 500px;
-	background-size: cover;
-	background-position: top;
-	background-image: url(image/komputer.jpg);
-	margin-bottom: 10px;
-	margin-left: 10px;
-}
-
-/* main */
-.main h2{
-	color: rgba(0,0,0,0.7);
-	font-size: 25px;
-	border-bottom: 5px solid salmon;
-	width: 200px;
-	margin-bottom: 10px;
-}
-
-.main .penulis a{
-	text-decoration: none;
-	color: salmon;
-}
-.main p{
-	margin-bottom:10px;
-	line-height: 20px;
-	color: rgba(0,0,0,0.7);
-}
-.main .isi p{
-	text-indent: 10px;
-	padding: 10px;
-}
-.main .isi:last-child{
-	margin-bottom: 50px;
-}
-/* copyright */
-.copyright{
-	background-color: rgba(0,0,0,0.7);
-}
-.copyright p{
-	padding: 20px;
-	color: white;
+.satu,.dua,.tiga{
+	margin: auto;
+	width: 100px;
+	height: 100px;
 	text-align: center;
+	line-height: 100px;
+	color: white;
+	font-size: 20px;
 }
+.satu{
+	background-color: burlywood;
 
-
+}
+.dua{
+	background-color: cadetblue;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.tiga{
+	background-color: coral;
+}
